@@ -55,3 +55,23 @@
 //   return b - a;
 // });
 // console.log(number);
+
+// const SchoolDetails = {
+//   schoolName: "Mydul Islam School and collage",
+//   "total Students": 12345,
+//   department: {
+//     firstDep: "cse",
+//     secDep: "eee",
+//     thirdDep: "cmt",
+//   },
+// };
+// SchoolDetails["total Students"] = 456782;
+// // console.log(SchoolDetails);
+// console.log(SchoolDetails.department.secDep);
+
+const names = ["miran", "mim", "ab"];
+for (let i = 0; i < names.length; i++) {
+  if (names[i].length % 2 == 0) {
+    console.log(names[i]);
+  }
+}
