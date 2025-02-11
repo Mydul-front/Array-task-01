@@ -39,6 +39,19 @@
 // const reverseing = statement.split(" ").reverse().join(" ");
 // console.log(reverseing);
 
-const statement = "I am a hard working person";
-let total = statement.split(" ").reverse().join(" ");
-console.log(total);
+// const statement = "I am a hard working person";
+// let total = statement.split(" ").reverse().join(" ");
+// console.log(total);
+
+// const numbers = [67, 56, 3, 4, 5, 8, 1, 2, 33];
+// console.log(
+//   numbers.sort(function (a, b) {
+//     return a - b;
+//   })
+// );
+
+// const numbers = [67, 56, 3, 4, 5, 8, 1, 2, 33];
+// let number = numbers.sort(function (a, b) {
+//   return b - a;
+// });
+// console.log(number);
