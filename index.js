@@ -69,9 +69,51 @@
 // // console.log(SchoolDetails);
 // console.log(SchoolDetails.department.secDep);
 
-const names = ["miran", "mim", "ab"];
-for (let i = 0; i < names.length; i++) {
-  if (names[i].length % 2 == 0) {
-    console.log(names[i]);
+// const names = ["miran", "mim", "ab"];
+// for (let i = 0; i < names.length; i++) {
+//   if (names[i].length % 2 == 0) {
+//     console.log(names[i]);
+//   }
+// }
+
+// break proyog
+
+// const names = ["miran", "mim", "mydul", "ayan", "mimi"];
+// for (let i = 0; i < names.length; i++) {
+//   //   console.log(names[i]);
+//   if (names[i] === "mydul") {
+//     continue;
+//   }
+//   console.log(names[i]);
+// }
+// let modulas = [];
+// for (let i = 1; i <= 50; i++) {
+//   if (i % 3 == 0 || i % 5 == 0) {
+//     modulas.push(i);
+//   }
+// }
+// console.log(modulas);
+
+// const names = ["mydul", "miran", "mimi", "mim", "Shakib Khan"];
+// let bigData = names[0];
+// for (let i = 0; i < names.length; i++) {
+//   //   console.log(names[i]);
+//   if (names[i].length > bigData.length) {
+//     bigData = names[i];
+//   }
+// }
+// console.log(bigData);
+
+// akti array er moddhe boro nam / boro index ta ninnoy koro
+
+const heros = ["helk", "supperMan", "spaiderMan", "batman", "shakib khan"];
+let lergestName = [];
+for (let i = 0; i < heros.length; i++) {
+  //   console.log(heros[i]);
+  if (heros[i].length > lergestName.length) {
+    lergestName = heros[i];
   }
 }
+console.log(lergestName);
+
+/* atai niyom */
